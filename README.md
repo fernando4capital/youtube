@@ -8,12 +8,14 @@ Youtube tools
 
  pip install pytube
 
-    After that to download a file:
+    After that download a file using the following command:
 
- python your_script_name.py "https://www.youtube.com/watch?v=your_youtube_video_id" -o /path/to/output/directory
+ python download.py "https://www.youtube.com/watch?v=your_youtube_video_id" -o /path/to/output/directory
 
-    Replace your_script_name.py with the actual name of your Python script file, and https://www.youtube.com/watch?v=your_youtube_video_id with the YouTube URL you want to download. 
+    Replace https://www.youtube.com/watch?v=your_youtube_video_id with the YouTube URL you want to download. 
 
-    You can include the -o option with a path if you want to specify a custom download location.
+    You can include the -o option with a path to specify a custom download location.
 
-     If no output path is provided, the video will be downloaded in the current directory.
+     The video will be downloaded in the current directory if no output path is provided.
+
+     Enjoy the MP4 file without Ads. 
